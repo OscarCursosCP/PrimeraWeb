@@ -1,0 +1,53 @@
+Hyper Text Markup Language (html)
+HTML sirve para :
+    -- Contenidos --> textos, imagenes, videos.
+    -- Extructura --> CSS
+
+<h1> CONTENIDO </h1>
+...
+...
+<h6> CONTENIDO </h6>
+<p> CONTENIDO </p>
+
+<blockquote> En un lugar de la mancha...</blockquote> Informar que estas citando algo. Dentro de parrafos con salto de linea
+<q> Esto es una cita... </q> Citas cortas
+<cite> Esto es una cita te lo pone en cursiva</cite> Dentro de parrafos con salto de linea
+
+Preformatea el texto y detecta saltos entre parrafos
+<pre> 
+    Con cien cañones por banda,
+    viento en popa a toda vela,
+
+    no corta el mar sino vuela,
+    un velero bergantín... 
+</pre>
+
+Declarar el css
+- En linea <p style="color:red; font-size:60px">Declarar estilo en linea</p>
+- Css incrustado. Se añade en el Head
+<Head>
+    <style>
+        p{ 
+            color:rgb(114, 15, 172);
+            font-size:40px;
+        }
+        
+        h1{
+            color:aqua;
+        }
+        img{
+            width:80%;
+        }
+        </style>
+</Head>
+<img src="../img/plan.png" alt="Plan">
+
+- Solucion perfecta: Crear un fichero externo con todos los estilos. 
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<h3>
+    Hola caracola!!!
+</h3>
+
